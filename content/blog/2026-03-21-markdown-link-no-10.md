@@ -1,0 +1,18 @@
++++
+title = "The Markdown Link no. 10"
+description = "Links that attracted my attention recently"
+date = 2026-03-21
+[taxonomies]
+tags = ["markdown", "markdown editors", "code editors", "Voiden", "Madblog", "uFocus", "Notebooks", "Inkdrop", "Dumbnote"]
++++
+
+An occasional post from [*The Markdown Handbook*](https://md-handbook.com).
+
+Among today’s links are code editor Voiden, minimal blog framework Madblog, and markdown editors uFocus, Notebooks, Inkdrop and Dumbnote.
+
+- [Voiden](https://voiden.md) is a free and open source code editor. It is an offline-first API client and workspace for developers, API testers and technical writers who want clarity, speed and control. The one problem I could see was that there was no separation between the body of text and the Terminal. I prefer a rule, change of colour scheme or a diffrentiation in font size – something to separate the two spaces. Quitting terminal while a process was running (Cntrl–C) had no effect, although this could simply have been a glitch on my machine.
+- [Madblog](https://git.fabiomanganiello.com/madblog) is a minimal blog and web framework that you can directly run from a folder of markdown files. It is a minimal, general-purpose markdown-based CMS. A base installation includes everything, including Webmentions and ActivityPub support, except LaTeX and Mermaid, both of which require additional configuration.
+- [uFocus](https://desairem.com/wordpress/ufocus/) is available free, for now, for Mac, iPad, iPhone and Apple Vision. Slightly annoying behaviour of starting the each document halfway down the page rather than at top, similar to IA Writer’s ‘Focus mode’. Small, medium, large editor size for line width. £15.71 one-time activation fee for uFocus’s sync, or bring your own. Otherwise it is free. 
+- [InkDrop](https://www.inkdrop.app) is a paid app with a 30-day free trial. Store locally or set up sync. Healthy plugin culture with external contributions, similar to Obsidian. ‘Readable line length’ is the only adjustment for line width, but there’s no control over the length if you’re not happy with the developer’s choice. It is WYSIWIG and distraction free. Inkdrop offers apps for macOS, Windows and Linux and iOS. Sync and backup options available.
+- [Notebooks](https://www.notebooksapp.com) is not the kind of markdown editor I am used to seeing. If you’re making the switch from MS Word, I can see how Notebooks might work as a gentle introduction to markdown. But it has more buttons, whistles and settings than any markdown editor should, which kind of defeats the whole object of its keyboard-driven approach. So you will spend a lot of time trying to find the perfect set up when you could be doing something worthwhile, like being more productive. Apps for macOS, iOS and Windows paid after 30-day free trial. £39.99 for Mac and £16 for Windows – not sure why there’s such a price differential either.
+- [Dumbnote](https://github.com/baibao577/dumbnote-page/releases/tag/v3.4.2) doesn’t accept folders so you will have to get used to tags. It has a simple right-hand sidebar, which seems to make sense when you think about it. There are clear instructions, width choice (although the developer’s choice seems to work for once) and you can choose your own font when you create a custom theme. I like Dumbnote, but whether I’m willing to give up my carefully nested folders is something we will have to see.

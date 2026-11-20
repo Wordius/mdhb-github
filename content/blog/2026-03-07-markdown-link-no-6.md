@@ -1,0 +1,18 @@
++++
+title = "The Markdown Link No. 6"
+description = "Links that attracted my attention recently"
+date = 2026-03-07
+[taxonomies]
+tags = ["markdown", "markdown editors", "LaTeX", "MiaoYan", "Obsidian", "slides", "Hike", "Gram"]
++++
+
+An occasional post from The Markdown Handbook.
+
+Among today’s links are: MiaoYan, a local-first markdown editor; how to create slides from Obsidian docs; Hike, a local markdown browser; Typst, a markup language for typesetting documents – I happen to love this, but it’s definitely one for the backburner; Gram, an opinionated code editor; and, the news that static site generator 11ty has become Build Awesome. 
+
+- [**MiaoYan**](https://github.com/tw93/MiaoYan) is a local-first markdown editor that does not collect your data; it comes with a split editor and preview, LaTeX and Mermaid diagrams. It has a minimalist design, three-column layout, dark mode and is distraction-free. Download the latest .dmg package from GitHub releases (requires macOS 11.5+).
+ - [**Obsidian’s markdown slides**](https://www.makeuseof.com/use-markdown-instead-of-powerpoint-slides/ "makeuseof.com") are like PowerPoint, but better. What it boils down to – rather than following the link to the ad-populated makeuseof.com site – is enabling Obsidian’s Slide plugin, which you’ll find in the Core plugins wardrobe. Then, if you want more and better control than you get with PowerPoint, install the [Advanced Slides](https://github.com/MSzturc/obsidian-advanced-slides) plugin available in Community plugins. It may be possible to achieve the same thing with other markdown editors. 
+ - [**Hike**](https://hike.davep.dev/) is a markdown browser for the terminal. It provides the ability to browse for and view local markdown files, as well as markdown files that can be downloaded from the web. It also has a number of shortcuts that make it easy to view markdown files on popular git forges such as GitHub, GitLab, Codeberg and Bitbucket.
+ - [**11ty is now Build Awesome**](https://www.kickstarter.com/projects/fontawesome/build-awesome?ref=b4hezh) following this ongoing Kickstarter campaign. It now offers a Pro model, which offers a number of features not available to users of the free version. The free and Pro stable releases are expected in March 2027. That gives you plenty of time to find [another static site generator](/static-site-generators/). 
+ - [**Typst**](https://typst.app/) is vaguely similar to markdown, but different. It is designed to be an alternative both to advanced tools like LaTeX and simpler tools like Word and Google Docs. Typst is a markup language for typesetting documents. It is designed to be easy to learn, fast and versatile. Typst takes text files with markup in them and outputs PDFs. It accepts LaTeX, markdown, MS Word files, and others.
+ - [**Gram**](https://gram.liten.app/posts/first-release/) version 1.0, an “opinionated fork of the Zed code editor”, has been released. Gram removes telemetry, AI features, collaboration features, and more. It adds built-in documentation, support for additional languages, and tab-completion. The developer says: “At first, I tried to build some other efforts I found online to make Zed work without the AI features just so I could check it out, but … [a]t some point, the curiosity turned into spite. I became determined to not only get the editor to run without all of the misfeatures, but to make it a full-blown fork of the project.”

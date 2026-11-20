@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <article>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <h2 class="page-description">{{ page.description }}</h2>
+    {% endif %}
+    <!--<section><strong>{{ page.date }}</strong></section>-->
+
+    {% if page.toc %}
+      {% include "partials/toc.html" %}
+    {% endif %}
+
+    {{ page.content | safe }}
+
+  </article>
+
+{% endblock content %}

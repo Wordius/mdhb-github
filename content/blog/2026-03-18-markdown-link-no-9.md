@@ -1,0 +1,19 @@
++++
+title = "The Markdown Link no. 9"
+description = "Links that attracted my attention recently"
+date = 2026-03-18
+[taxonomies]
+tags = ["markdown", "markdown editors", "Octarine", "Medita", "SilentNotes", "AnySlate", "Matterbld", "Pixel and Paper", "OnlyOffice", "PDF viewer", "headless CMS", "code editors"]
++++
+
+An occasional post from [*The Markdown Handbook*](https://md-handbook.com).
+
+Among today’s links are markdown editors Octarine, Medita and SilentNotes, code editor AnySlate, headless CMS Matterbld, support for markdown arrives in OnlyOffice, and PDF editor and viewer Pixel and Paper. 
+
+- [Octarine](https://octarine.app/) is still in active development, so there are a few rough edges. Features include a daily notes section, known as Daily Desk, a Mermaid diagrams overlay and the functionality to use templates. One thing I should point out is that Octarine handles internal links differently to Obsidian, for example. So if you have internal links across a lot of documents, as in your notes are your personal knowledge management system, this may cause you problems. But if, as in my case, your internal links are restricted to a bunch of ‘menu’-type docs then that is easily fixed. On the subject that many are concerned about, the use of AI, the developer says: “AI is entirely optional and requires you to bring your own key anyway. Don’t setup a key, and you won’t have AI enabled…” I like Octarine, but the price is $75 for a lifetime licence. That may be a big turn-off for many users; maybe a price somewhere below $30 would work.
+- [OnlyOffice](https://www.onlyoffice.com/blog/2026/03/connector-v10-for-nextcloud-markdown), Latvia’s answer to the MS Office empire, now also allows you to save your files in markdown format.
+- [Mattrbld](https://mattrbld.com) is a headless content management system for teams and individuals who don’t want to be locked into a specific platform or framework. It offers a fast and flexible way to create, edit and manage content while giving developers complete control over the shape of the data, so they are free to use any frontend technologies they like. Interested? It comes with clear, well-written documentation and does not use AI.
+- [AnySlate](https://AnySlate.io) is a an advanced code editor that comes with a pre-installed dark theme. The free tier offers limitless local files but only 10 cloud files, while the hobby and pro themes cost $30 and $60 annually. 
+- [Medita](https://wandersound.ca/medita/) is described as a quiet markdown editor for macOS and ‘a dedicated environment for composers, sound artists, and technical writers’. There’s no trial version and it’s a one-time purchase priced at $29. Uses a local version of AI (3GB one-time download), although you can add your own if you have an API key. No indication AI can be switched off.
+- [SilentNotes](https://www.martinstoeckli.ch/silentnotes/) is a note taking app which respects your privacy. It doesn’t collect personal data, runs free of ads and is open source. Write your notes in a WYSIWYG editor with basic formatting like headers or lists, and synchronise them end-to-end encrypted between Android and Windows devices. Not as clean or well designed as many of the markdown editors I have come across, but it appears to do the job. Freeware.
+- [Pixel and Paper](https://github.com/the-coded-type/pixel-and-paper) is a  markdown and CSS to PDF editor and previewer built for web typography. It’s for those who write in markdown but want to publish physical books, zines or any formatted PDFs. Instead of using proprietary design software, like InDesign or word processors, you can use the web technologies you already know, such as markdown/html and CSS to layout print-ready documents. P&P lets you turn markdown and CSS files into paginated content and export as print-ready PDFs. There’s a web and desktop version.

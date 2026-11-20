@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <!--{% block title %}
+  <div class="postlist-header">
+     {{ config.title }} &middot; <a href="/tags">Tags</a> &middot; {{ term.name | capitalize }}
+  </div>
+  {% endblock title %}-->
+
+
+  <h1 class="page-title">{{ term.name | capitalize }}</h1>
+  
+  {% if config.extra.term_descriptions[term.slug] %}
+    <h2 class="section-description">{{ config.extra.term_descriptions[term.slug] }}</h2>
+  {% endif %}
+
+  <!--{% if page.taxonomies.tags %}
+    {% if "Plugins" in page.taxonomies.tags %}
+    <p>Description for Widgets goes here...</p>
+    {% elif "markdown" in page.taxonomies.tags %}
+    <p>Description for Markdown goes here...</p>
+    {% else %}
+    <p>Description</p>
+    {% endif %}
+  {% endif %}-->
+
+  <ul class="postlist">
+    {% for page in term.pages | sort(attribute="date") | reverse %}
+    <li class="postlist-item">
+      {% if page.date %}
+      <div class="date">
+        <time class="postlist-date">{{ page.date | date(format="%d %B %Y") }}</time>
+      </div>
+      {% endif %}
+      <h2 class="postlist-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+      <!--<p class="postlist-description">{{ page.description }}</p>-->
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% endblock content %}

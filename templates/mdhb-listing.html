@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!--<section class="postlist-header">
+  <h1 class="section-title">{{ section.title }}</h1>
+  <h2 class="section-description">{{ section.description }}</h2>
+</section>
+
+{{ section.content | safe }}-->
+
+<!-- PAGINATOR -->
+{% if paginator %}
+<div>
+  <ul class="mdhd-postlist">
+    <h2 class="mdhd-content">Content</h2>
+    {% for post in paginator.pages %}
+    <li class="mdhd-postlist-item">
+        <h2><a class="mdhd-postlist-title" href="{{ post.permalink }}">{{ post.title }}</a></h2>
+    </li>
+    {% endfor %}
+  </ul> 
+</div>
+{% endif %}
+<!-- END PAGINATOR -->
+
+<!-- CONTENT OF SECTION _index.md -->
+
+<article>
+  <h1 class="page-title">{{ section.title | safe }}</h1>
+    {% if section.description %}
+      <h2 class="page-description">{{ section.description }}</h2>
+    {% endif %}
+
+    {{ section.content | safe }}
+</article>
+
+<!--<hr class="rule">-->
+
+{% endblock content %}

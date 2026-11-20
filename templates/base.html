@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ config.title }}</title>
+
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+  <meta name="description" content="{{ config.description }}">
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+  
+  <!-- PRELOAD CSS -->
+  <link rel="preload" href="/style.css" as="style" />
+  <link rel="stylesheet" href="/style.css">
+  
+  <!--{% block rss %}    
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+  {% endblock %}-->
+
+
+  <link rel="me" href="https://mastodon.social/@md_handbook">
+
+  <script src="https://alceris.com/script.js" data-id="9c7431c37924dc7b" async defer></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="masthead_outer">
+        <div class="masthead">
+            <a class="banner" href="/" class="home-link">The<br>Markdown<br>Handbook</a>
+        </div>
+            <!--<div class="item">
+            {% if config.build_search_index -%}
+                <div id="on_right">
+                    <span id="search-ico" class="ms-Icon--Search"></span>
+                </div>
+                <div class="search-container">
+                    <input id="search" type="search" placeholder="Search as you type...">
+                    <div class="search-results">
+                        <div class="search-results__header"></div>
+                        <ul class="search-results__items"></ul>
+                    </div>
+                </div>
+            {% endif -%}
+            </div>-->
+
+    </div>
+    </header>
+<section class="wrapper">
+
+        <nav aria-label="Main Navigation" role="navigation">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="hamburger" for="menu-toggle">&#9776;</label>
+            <ul class="menu">
+                <li class="dropdown">
+                    <a href="#">Getting started &#8595;</a>
+                    <ul class="submenu">
+                        <li><a href="/how-to-write-in-markdown/">Start here</a></li>
+                        <li><a href="/markdown-use-cases/">Use cases</a></li>
+                        <li><a href="/markdown-flavours/">Flavours</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Rules & syntaxes &#8595;</a>
+                    <ul class="submenu submenu-left">
+                        <li><a href="/rules-or-syntaxes/the-basics/">Cheat sheet</a></li>
+                        <li><a href="/rules-or-syntaxes/extended-syntax/">Extended syntax</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="/tools/">Tools &#8595;</a>
+                    <ul class="submenu submenu-left">
+                        <li><a href="/markdown-editors/">Markdown editors</a></li>
+                        <li><a href="/static-site-generators/">Static site generators</a></li>
+                    </ul>
+                </li>
+                <li><a href="/blog/" title="The news, in other words">Blog</a></li>
+                <li><a href="/tags/" title="All the tags">Topics</a></li>
+                <li><a href="/tags/plugins/" title="Obsidian, VS Code and other apps">Plugins</a></li>
+        </ul>
+      </nav>
+  </header>
+
+        <section class="container">
+        <main>
+            {% block content %}
+            {% endblock %}
+
+        {% include "partials/popular-posts.html" %}
+
+        </main>
+    </section><!-- container -->
+
+    <section class="message">
+        <div class="flex_item">
+                <a href="https://plainva.com/"><img src="/img/plainva-logo.webp" /></a>
+        </div>
+        <div class="flex_item words">
+            <p><strong>Plainva</strong> The free and open-source markdown editor that does a lot more besides</p>
+        </div>
+    </section>
+    <div class="non-flex">
+        <p class="smallcaps"><a href="#">Ads by privacee</a></p>
+    </div>
+
+
+</section><!-- wrapper -->
+
+{% include "partials/footer.html" %}
+
+</body>
+
+</html>
