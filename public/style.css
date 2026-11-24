@@ -457,13 +457,14 @@ article a:hover {
 .featured {
   font-family: var(--font-family-serif);
   color: #777;
-  padding: 0 0 0.25rem;
+  padding: 3rem 0 0.25rem;
+  border-top: 1px solid #777;
 }
 .featured-postlist-title {
     font-size: var(--pt-english);
     font-weight: 700;
     padding: 1rem 0;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #ccc;
 }
 .featured-postlist-title:first-of-type {
     padding-top: 2rem;
