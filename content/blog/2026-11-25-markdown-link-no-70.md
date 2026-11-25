@@ -10,7 +10,7 @@ tags = ["markdown", "markdown editors", "writing", "open source", "free", "books
 
 An occasional post[^1] from *[The Markdown Handbook](https://md-handbook.com/)*.
 
-Among today’s links[^2] are markdown editors[^3] Noteriv and Glifa, plus we look at DaraCMS, which has a built-in markdown editor with live preview.
+Among today’s links[^2] are markdown editors[^3] Noteriv and Glifa, plus we look at DaraCMS, which has a built-in markdown editor that offers a live preview.
 
 - [Noteriv](https://thejacedev.github.io/Noteriv/) is a free and open-source markdown editor. It is aimed at developers, writers, researchers or students. Change any of font, font size and line height in `Settings > Editor`. The editor width you have no control over. So the live preview editor sits at a reasonable width, in my opinion, but the source editor fills out the width of the viewport. I have no idea why many developers choose this option, but they do. Wiki links can be used to connect notes and there’s space for a journal. In fact, calendar view links directly to the selected day’s daily note, assuming you have made one. Syncs three ways: through a Git remote, mirrored folder or WEBDAV. Ships with an MCP server. Available for macOS, Linux, Windows, Android and iOS.
 - [DaraCMS](https://daracms.com) is a content management system with a simple editor that supports markdown and live preview. Update front matter with a simple form, and upload and manage your media files via its interface. The cost is $5 per user per month, so team members can be involved. Requires you to create a login.
