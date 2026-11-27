@@ -699,12 +699,14 @@ img {
 figure {
 	padding: 0 0 2rem 0;
 }
+figure img.background {
+   	background-color: rgba(247, 213, 105, 0.3); /*  #f7d569, yellow */
+}
 figcaption {
 	font-family: var(--font-family-sans);
 	font-size: var(--pt-long-primer);
-  padding: 0.3rem 0 0 .25rem;
-  text-align: center;
-  /*border-left: 3px solid #777;*/
+    padding-top: 0.3rem;
+    text-align: center;
 }
 .page-image {
 	padding-bottom: 3rem;
