@@ -617,6 +617,12 @@ code {
   padding-bottom: 1rem;
   border-top: 1px solid #ccc;
 }
+.non-flex {
+  display: none;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
 .flex_item {
   font-size: var(--pt-long-primer);
 }
@@ -634,11 +640,7 @@ code {
   color: #777;
   width: 200px;
 }
-.non-flex {
-  display: none;
-  flex-direction: row;
-  margin-bottom: 3rem;
-}
+
 .smallcaps {
   font-size: 12px;
   text-transform: uppercase;
